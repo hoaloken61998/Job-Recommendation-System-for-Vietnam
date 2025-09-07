@@ -50,7 +50,7 @@ These results show strong potential for real-world deployment in Vietnam’s job
 - **Languages**: Python  
 - **Libraries**: Scikit-learn, PyTorch, HuggingFace Transformers, Pandas, NumPy, Matplotlib  
 - **Tools**: Selenium, BeautifulSoup, Playwright (data crawling)  
-- **Deployment**: Flask / Streamlit  
+- **Deployment**: Streamlit  
 
 
 
