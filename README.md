@@ -55,3 +55,55 @@ These results show strong potential for real-world deployment in Vietnam’s job
 
 
 ## 📂 Repository Structure
++---Dataset
+|   +---Cleaned data
+|   |   +---Testing data
+|   |   |       candidate_data_testing.csv
+|   |   |       job_data_testing.csv
+|   |   |       
+|   |   \---Training data
+|   |           cleaned_candidate_data.csv
+|   |           cleaned_job_data.csv
+|   |
+|   \---Uncleaned data
+|           candidate_data_TV365.csv
+|           job_data_Careerviet.csv
+|
++---Demo
+|       Job_recommendation_demo.py
+|
++---Docs
+|       Reports.pdf
+|       WEB ANALYSIS.pdf
+|
+\---Notebooks
+    +---Cleaning Data
+    |   +---Cleaning Candidate Data
+    |   |       Pre_processing_Candidate.ipynb
+    |   |
+    |   \---Cleaning Job Data
+    |           Cleaning_Job_Data.ipynb
+    |           Job_Data_Normalize_Time.ipynb
+    |
+    +---Crawling Data
+    |   +---Candidate Data Crawler
+    |   |       Crawl_Data_Candidate_TV365.ipynb
+    |   |
+    |   \---Job Data Crawler
+    |           Data_Job_Crawler.ipynb
+    |           Data_Job_Crawler_Add_Industry&Type.ipynb
+    |
+    +---EDA
+    |       EDA_Candidate.ipynb
+    |       EDA_Job.ipynb
+    |
+    +---Feature Engineering
+    |       Content_based.ipynb
+    |       Features Engineering.ipynb
+    |
+    \---Matching and Evaluation
+            Candidate-to-Job Content Similarity_TF_IDF.ipynb
+            Candidate_to_Job_Content_Similarity_Pho2Vec100.ipynb
+            Candidate_to_Job_Content_Similarity_Pho2Vec300.ipynb
+            Candidate_to_Job_Content_Similarity_PhoBERT_NoPCA.ipynb
+            Candidate_to_Job_Content_Similarity_PhoBERT_PCA.ipynb
