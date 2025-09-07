@@ -55,6 +55,7 @@ These results show strong potential for real-world deployment in Vietnam’s job
 
 
 ## 📂 Repository Structure
+```
 +---Dataset
 |   +---Cleaned data
 |   |   +---Testing data
@@ -107,3 +108,4 @@ These results show strong potential for real-world deployment in Vietnam’s job
             Candidate_to_Job_Content_Similarity_Pho2Vec300.ipynb
             Candidate_to_Job_Content_Similarity_PhoBERT_NoPCA.ipynb
             Candidate_to_Job_Content_Similarity_PhoBERT_PCA.ipynb
+```
